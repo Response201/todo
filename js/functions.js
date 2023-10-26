@@ -40,9 +40,10 @@ export const addTodoToList = (data, list, valueOfTodo) => {
 export const List = (list, valueOfTodo) => {
     let startList = [
         { titel: 'drink water', done: true, showContent: true },
-        { titel: 'fix css', done: false, showContent: true },
+        { titel: 'Go to the gym', done: false, showContent: true },
+        { titel: 'Call a friend', done: true, showContent: true },
         { titel: 'make dinner', done: true, showContent: true },
-        { titel: "Make dinner", done: true, showContent: true },
+        { titel: 'Do the laundry', done: true, showContent: true },
         { titel: "Wash car", done: true, showContent: true },
         { titel: "Write code", done: false, showContent: true },
         { titel: "Read book", done: true, showContent: true },
